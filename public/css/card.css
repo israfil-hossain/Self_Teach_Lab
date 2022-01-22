@@ -1,0 +1,94 @@
+
+
+*{
+    margin: 2px;
+    padding: 0px;
+   }
+   body{
+    font-family: arial;
+   }
+   .main{
+   
+    margin: 20;
+   }
+   
+   .card{
+        width: 20%;
+        background-color:indianred;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+   
+    
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+   h1{
+     font-size: 20px;
+    }
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color:whitesmoke;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover
+   {
+     background-color: royalblue;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+   .card:hover
+   {
+     background-color: royalblue;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+     box-shadow: 5px 5px 10px gray;
+   }
+   .myButton {
+    background-color:#44c767;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:20px 58px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+    background-color:#5cbf2a;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
